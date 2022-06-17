@@ -1,0 +1,23 @@
+name: icrat_tutorial
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python=3.9.12
+  - numpy=1.21.6
+  - pandas=1.4.2
+  - pandas-profiling=3.2.0
+  - pip=22.0.4
+  - pyarrow=7.0.0
+  - scikit-learn=1.0.2
+  - seaborn=0.11.2
+  - shap=0.40.0
+  - tqdm=4.64.0
+  - pytorch=1.11.0
+  - lightgbm=3.3.2
+  - optuna=2.10.1
+  - pyarrow=7.0.0 
+  - pip:
+    - plotly==5.8.2
+    
