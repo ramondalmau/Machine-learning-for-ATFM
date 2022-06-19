@@ -3,7 +3,9 @@ channels:
   - conda-forge
   - defaults
   - pytorch
+  - anaconda
 dependencies:
+  - jupyter
   - python=3.9.12
   - numpy=1.21.6
   - pandas=1.4.2
@@ -14,9 +16,9 @@ dependencies:
   - seaborn=0.11.2
   - shap=0.40.0
   - tqdm=4.64.0
-  - pytorch=1.11.0
+  - pytorch-cpu=1.11.0
   - lightgbm=3.3.2
-  - optuna=2.10.1
+  - optuna=2.10
   - pyarrow=7.0.0 
   - pip:
     - plotly==5.8.2
